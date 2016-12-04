@@ -1,3 +1,3 @@
 # website
 
-Basic website built in order to pratice HTML and CSS
+Basic website built in order to practice HTML and CSS
