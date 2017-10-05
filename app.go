@@ -10,5 +10,6 @@ func main() {
 	http.Handle("/", fs)
 
 	log.Println("Listening...")
-	http.ListenAndServe(":3000", nil)
+	http.ListenAndServe(":"+os.Getenv("PORT"), nil)
+
 }
