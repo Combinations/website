@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	fs := http.FileServer(http.Dir("."))
+	fs := http.FileServer(http.Dir("web"))
 	http.Handle("/", fs)
 
 	log.Println("Listening...")
