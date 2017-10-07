@@ -1,3 +1,3 @@
 # website
 
-Basic website built in order to practice HTML and CSS
+personal website. running on heroku in a container. fun.  
